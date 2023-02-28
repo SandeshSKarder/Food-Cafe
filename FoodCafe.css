@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+
+.div1{
+    background-color: yellow;
+    width: 100vw;
+    height: 12vh;
+}
+#item{
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+    margin-top: -25px;
+    padding-right: 30px;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.Cont{
+    font-size:17px;
+    text-decoration: none;
+
+}
+#FC{
+    /* padding-top: 20px; */
+    
+    padding-left:80px;
+    font-family: Comic Sans MS;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+#items{
+    transform: translateY(-20px);
+}
+.Cont:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.div2{
+    background-image:url(https://wallpapercrafter.com/sizes/2560x1440/257297-a-chef-preparing-food-in-the-kitchen-of-a-restaura.jpg);
+    background-size: cover;
+    height: 75vh;
+    padding-top: 130px;
+    
+}
+.div3{color: rgb(16, 16, 16);
+    width: 50vw;
+    height: 33vh;
+    padding: 100px;
+    margin: auto;
+    padding-top: 60px;
+    
+}
+.op1{
+    width: 60vw;
+    height: 40vh;
+    background: linear-gradient(rgba(211, 153, 5, 0.4),rgba(180, 232, 11, 0.4));
+    /* border: 5px solid black; */
+    padding: 10px;
+    margin-left: 280px;
+    
+
+}
+#WBC{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: sandy 8s steps(70,end);
+    background-color: black;
+    color: aliceblue;
+    width: 400px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    /* margin-left: 120px; */
+    margin: auto;
+    border-bottom: 4px solid white;
+    letter-spacing: 5px;
+}
+.p{
+    background-color: black;
+    color: aliceblue;
+    width: 450px;
+    height: 70px;
+    padding-top:10px;
+    text-align: center;
+    /* margin-left: 80px; */
+    margin: auto;
+    font-family:Comic Sans MS ;
+    border-bottom: 4px solid white; 
+}
+#btns{
+    margin-left: 100px;
+}
+.btn{
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: yellow;
+    font-family:Comic Sans MS ;
+    font-weight: bold;
+
+}
+#div4{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: auto;
+}
+/* #WBC{
+    letter-spacing: 1px;
+    /* animation-name: sandy; */
+    /* overflow: hidden;
+    white-space: nowrap;
+    /* animation: sandy 10s steps(60,end); }*/
+
+@keyframes sandy{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 62%;
+    }
+}
+.div5{
+    display: flex;
+    /* padding: 60px; */
+    width: 80vw;
+    height: 500px;
+    margin: auto;
+    /* margin-left: 330px; */
+    background-color: rgb(201, 196, 196);
+    margin-top: 60px;
+}
+.div6{
+    height: 500px;
+    
+}
+.div7{
+    
+    padding: 40px;
+    width: 750px;
+    height: 500px;
+    font-family:Comic Sans MS ;
+}
+#cooking{
+    text-decoration: underline;
+    font-size: 45px;
+}
+#para{
+
+    font-size: 25px;
+}
+.Read{
+    width: 105px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: yellow;
+    text-decoration: none;
+    font-family:Comic Sans MS ;
+    border: none;
+    font-weight: bold;
+}
+#div7{
+    display: flex;
+}
+#i1{
+    width: 200px;
+    height: 200px;
+}
+#i2{
+    width: 200px;
+    height: 200px;
+}
+#div8{
+    margin-top: -5px;
+    display: flex;
+}
+#i3{
+    width: 200px;
+    height: 200px;
+}
+#i4{
+    width: 200px;
+    height: 200px;
+}
+#hd3{
+    text-decoration: underline;
+    font-size: 45px;
+}
+#p1{
+    font-size: 20px;
+    font-family:Comic Sans MS ;   
+}
+#lefdata{
+    width: 400px;
+    
+}
+/* .block3{
+    margin-top: 60px;
+    background-color: rgb(211, 206, 206);
+} */
+#c1{
+    width: 150px;
+    height: 150px;
+}
+#n1{
+    width: 150px;
+    height: 150px;
+}
+#q1{
+    width: 150px;
+    height: 150px;
+}
+#d1{
+    width: 150px;
+    height: 150px;
+}
+#div9{
+    display: flex;
+    font-family:Comic Sans MS ;
+}
+#div10{
+    display: flex;
+    font-family:Comic Sans MS ;
+}
+.block3{
+    margin-top: 60px;
+    background-color: rgb(211, 206, 206);
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+#itm2{
+    margin-left:150px ;
+}
+#itm4{
+    margin-left:150px ;
+}
+.p2{
+    border: 1px solid black;
+    box-shadow: 2px black;
+    background-color: azure;
+    font-size: 20px;
+    font-weight: bold;
+}
+.righlogo{
+    width: 400px;
+}
+.all{
+    width: 250px;
+    height: 150px;
+    margin: auto;
+}
+.div11{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+}
+.food{
+    width: 300px;
+    height: 500px;
+    /* background-color: red; */
+    background-image: linear-gradient(to bottom, rgb(226, 131, 196),rgb(255, 0, 89));
+}
+.hall{
+    text-align: center;
+    font-family:Comic Sans MS ;
+    font-size: 35px;
+    padding: 10px;
+}
+.bp4{
+    font-size: 20px;
+    font-family:Comic Sans MS ;
+    padding-top: 5px;
+    color: aliceblue;
+}
+#hall{
+    font-size: 35px;
+    padding: 5px;
+    padding-left: 60px;
+    text-decoration: underline;
+    font-family:Comic Sans MS ;
+}
+.block4{
+    margin: 30px;
+    background-color: rgb(188, 182, 182);
+}
+.vn{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    font-family:Comic Sans MS ;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    margin-top: 20px;
+}
+.imgbr{
+    width: 350px;
+    height: 250px;
+}
+.fmenu{
+    font-family:Comic Sans MS ;
+}
+.price{
+    font-family:Comic Sans MS ;
+}
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.block5{
+    background-image: linear-gradient(to bottom, rgb(226, 131, 196),rgb(255, 0, 89));
+    text-align: center;
+    padding: 20px;
+}
+.foodmenu{
+    font-family:Comic Sans MS ;
+    text-decoration: underline;
+    background-color: aliceblue;
+    display: inline;
+    
+}
+.mimg1{
+    width: 350px;
+    height: 400px;
+}
+.members{
+    margin: auto;
+    width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+.team{
+    padding: 30px;
+    text-align: center;
+    font-family:Comic Sans MS ;
+    background-color: black;
+    color: aliceblue;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.mname{
+    font-family:Comic Sans MS ;
+    text-align: center;
+}
+.footerdiv{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 25px;
+}
+li{
+    list-style-type: none;
+}
+.btag{
+    text-decoration: none;
+    font-family:Comic Sans MS ;
+    color: aliceblue;
+    line-height: 25px;
+    font-size: 20px;
+}
+.blinksleft{
+    font-family:Comic Sans MS ;
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+    text-align: center;
+}
+.fpara{
+    color: aliceblue;
+    font-family:Comic Sans MS ;
+    line-height: 25px;
+    font-size: 20px
+}
+.block7{
+    background-color: black;
+    color: aliceblue;
+}
+.icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
+    margin-left: 700px;
+    padding:30px;
+}
+.footerright{
+    transform: translateX(-200px);
+}
+.b3h1{
+    font-family:Comic Sans MS ;
+}
